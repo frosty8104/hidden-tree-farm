@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+}
+body {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+header, 
+main,
+footer {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* HEADER */
+header h1,
+header h2 {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+header h1 {
+    color: #36a2a2;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 4px 4px #000;
+}
+header h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+nav {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0 0 0 25%;
+    width: 60%;
+}
+nav ul {
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    padding: 2%;
+}
+nav ul li a {
+    color: #36a2a2;
+    display: flex;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #000;
+}
+/* MAIN */
+main h2 {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.5em;
+    justify-content: flex-start;
+    width: 90%;
+}
+.banner {
+    border: none;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 65%;
+    width: 1500px;
+    width: 90%;
+}
+img {
+    width: 100%;
+}
+main p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
