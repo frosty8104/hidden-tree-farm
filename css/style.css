@@ -4,6 +4,8 @@ html {
 body {
     color: #000;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 header, 
@@ -97,4 +99,27 @@ main p {
     display: flex;
     justify-content: center;
     width: 90%;
+}
+/* ABOUT */
+img {
+    width: 100%;
+}
+p {
+    width: 45%;
+}
+/* FORMS */
+/* ADOPT */
+img {
+    width: 100%;
+}
+p {
+    width: 45%;
+}
+/* CONTACT */
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1200px) {
+
 }
