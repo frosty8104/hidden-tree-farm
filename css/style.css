@@ -50,19 +50,17 @@ header h2 {
 nav {
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 0 0 0 25%;
-    width: 60%;
+    width: 80%;
 }
 nav ul {
-    justify-content: space-between;
-    padding: 0;
     width: 100%;
 }
 nav ul li {
-    display: inline-block;
-    padding: 2%;
+    display: block;
+    text-align: center;
 }
 nav ul li a {
     color: #36a2a2;
@@ -85,11 +83,11 @@ main h2 {
 }
 .banner {
     border: none;
-    height: 500px;
+    height: 125px;
     object-fit: cover;
     object-position: 50% 65%;
     width: 1500px;
-    width: 90%;
+    width: 100%;
 }
 img {
     width: 100%;
@@ -101,25 +99,247 @@ main p {
     width: 90%;
 }
 /* ABOUT */
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.about {
+    width: 90%;
+}
 img {
     width: 100%;
 }
-p {
-    width: 45%;
-}
-/* FORMS */
 /* ADOPT */
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.adoptees {
+    width: 90%;
+}
 img {
     width: 100%;
 }
-p {
-    width: 45%;
-}
-/* CONTACT */
-
 @media (min-width: 768px) {
+    /* HEADER */
+    header h1,
+    header h2 {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 80%;
+    }
+    header h1 {
+        color: #36a2a2;
+        font-size: 3em;
+        font-weight: bold;
+        text-shadow: 4px 4px #000;
+    }
+    header h2 {
+        font-size: 1.5em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+    nav {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 80%;
+    }
+    nav ul {
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 2%;
+    }
+    nav ul li a {
+        color: #36a2a2;
+        display: flex;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav ul li a:hover {
+        color: #000;
+    }
+    /* MAIN */
+    main h2 {
+        align-items: flex-start;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1.5em;
+        justify-content: flex-start;
+        width: 90%;
+    }
+    .banner {
+        border: none;
+        height: 250px;
+        object-fit: cover;
+        object-position: 50% 65%;
+        width: 1500px;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    main p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    }
+    /* ABOUT */
+    main {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+   #about, #info {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .intro {
+        width: 45%;
+    }
+    .info {
+        width: 90%;
+    }
+    img {
+        width: 100%;
+    }
+    .founder {
+        padding: 0 2% 0 0;
+        width: 45%;
+    }
 
+    /* ADOPT */
+    main {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #adoptees {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #adoptees p {
+        width: 45%;
+    }
+    img {
+        width: 100%;
+    }
+    .photo {
+        padding: 0 2% 0 0;
+        width: 45%;
+    }
 }
 @media (min-width: 1200px) {
-
-}
+    /* HEADER */
+    header h1,
+    header h2 {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 80%;
+    }
+    header h1 {
+        color: #36a2a2;
+        font-size: 3em;
+        font-weight: bold;
+        text-shadow: 4px 4px #000;
+    }
+    header h2 {
+        font-size: 1.5em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+    nav {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0 0 0 25%;
+        width: 60%;
+    }
+    nav ul {
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 2%;
+    }
+    nav ul li a {
+        color: #36a2a2;
+        display: flex;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav ul li a:hover {
+        color: #000;
+    }
+    /* MAIN */
+    main h2 {
+        align-items: flex-start;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1.5em;
+        justify-content: flex-start;
+        width: 90%;
+    }
+    .banner {
+        border: none;
+        height: 500px;
+        object-fit: cover;
+        object-position: 50% 65%;
+        width: 1500px;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    main p {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    /* ABOUT */
+    img {
+            width: 100%;
+    }
+    p {
+        width: 45%;
+    }
+    /* FORMS */
+        /* ADOPT */
+    img {
+        width: 100%;
+    }
+    p {
+        width: 45%;
+    }
+    /* CONTACT */
+    }
