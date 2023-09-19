@@ -1,0 +1,1 @@
+alert("WARNING: This site is a work in progress, the images and text you see are only placeholders.");
