@@ -107,26 +107,29 @@ img {
     width: 100%;
 }
 /* FORMS */
-form {
+#form h2 {
+    padding: 0 0 0 5%;
+}
+#form form {
     border: 1px solid #000000;
-    margin: 0 20%;
+    margin: 0 10%;
     width: 90%;
 }
-fieldset {
+#form fieldset {
     border: none;
     margin: 2%;
 }
-label, select, button {
+#form label, #form select {
     margin: 0.5% 0;
     width: 98%;
 }
-input[type=text] {
+#form input[type=text] {
     width: 98%;
 }
-textarea {
+#form textarea {
     width: 98%;
 }
-button {
+#form button {
     width: 15%;
 }
 /* ADOPT */
@@ -137,20 +140,23 @@ img {
     width: 100%;
 }
 /* CONTACT */
-form {
+#contact form {
     align-items: center;
     display: flex;
     justify-content: center;
     width: 90%;
 }
-label {
+#contact fieldset {
+    width: 25%;
+}
+#contact label {
     padding: 5% 2%;
 }
-input[type=text2] {
+#contact input {
     margin: 2% 0 2% 2%;
     width: 55%;
 }
-button {
+#contact button {
     margin: 0 0 2% 35%;
 }
 @media (min-width: 768px) {
@@ -353,7 +359,7 @@ button {
     }
     /* ABOUT */
     img {
-            width: 100%;
+        width: 100%;
     }
     p {
         width: 45%;
